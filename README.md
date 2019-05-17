@@ -1,4 +1,4 @@
-Dot Net Core Multiple Docker
+Dot Net Core Multiple Containers
 -----
 An example ASP.NET Core API within multiples docker containers
 
