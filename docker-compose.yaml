@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./Server
+    ports:
+      - "15000:80"
+  client:
+    build:
+      context: ./Client
+    ports:
+      - "15001:80"
+    depends_on:
+      - server
+ 
+
